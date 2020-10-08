@@ -1,0 +1,24 @@
+.place__website {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .place__website {
+        display: block;
+        align-self: flex-end;
+        margin-bottom: 48px;
+        width: calc(100% - 368px);
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .place__website {
+        width: calc(100% - 472px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__website {
+        width: calc(100% - 500px);
+    }
+}

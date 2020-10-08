@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .place__link {
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        line-height: 1.22;
+        text-decoration-line: underline;
+        transition: .3s;
+    }
+
+    .place__link:hover {
+        opacity: .8;
+    }
+}

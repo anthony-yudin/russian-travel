@@ -1,0 +1,30 @@
+.cover {
+    position: relative;
+    margin: 64px -16px;
+    padding: 33px 16px;
+    text-align: center;
+    background-image: url('../../images/cover-trains.jpg');
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .cover {
+        padding: 115px 104px;
+        margin: 88px -24px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .cover {
+        margin: 92px -48px;
+        padding: 195px 232px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 245px 312px;
+    }
+}

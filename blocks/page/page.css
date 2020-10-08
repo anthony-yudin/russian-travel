@@ -1,0 +1,30 @@
+.page {
+    color: #fff;
+    width: 100%;
+    font-family: 'inter', 'Arial', sans-serif;
+    background: #2A2C2F;
+}
+
+.page__wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .page__wrapper {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .page__wrapper {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page__wrapper {
+
+    }
+}

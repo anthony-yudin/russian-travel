@@ -1,0 +1,28 @@
+.place__title {
+    margin: 0 0 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .place__title {
+        width: 340px;
+        flex: none;
+        margin-right: 28px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .place__title {
+        width: 440px;
+        margin-right: 32px;
+        font-size: 72px;
+        line-height: 1.06;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__title {
+        width: 460px;
+        margin-right: 40px;
+    }
+}

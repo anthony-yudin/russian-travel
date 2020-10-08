@@ -1,0 +1,9 @@
+.places {
+    margin-top: 64px;
+}
+
+@media screen and (min-width: 991px) {
+    .places {
+        margin: 92px 0 80px;
+    }
+}
