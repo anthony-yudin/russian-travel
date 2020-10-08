@@ -1,6 +1,22 @@
 .header {
-    padding-top: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    padding-top: 16px;
+    max-width: 1184px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 28px;
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .header {
+        width: calc(100% - 96px);
+    }
 }

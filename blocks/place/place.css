@@ -10,7 +10,14 @@
     .place {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 72px;
+        margin: 0 auto 72px;
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .place {
+        width: calc(100% - 96px);
     }
 }
 

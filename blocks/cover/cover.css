@@ -1,7 +1,6 @@
 .cover {
     position: relative;
-    display: block;
-    margin: 64px -16px;
+    margin: 64px auto;
     padding: 33px 16px;
     text-align: center;
     background-image: url('../../images/cover-trains.jpg');
@@ -9,26 +8,27 @@
     color: #fff;
     text-decoration: none;
     max-width: 1184px;
+    display: table;
 }
 
 @media screen and (min-width: 768px) {
     .cover {
         padding: 115px 104px;
-        margin: 88px -24px;
+        margin-top: 88px;
+        margin-bottom: 88px;
     }
 }
 
 @media screen and (min-width: 991px) {
     .cover {
-        margin: 92px -48px;
+        margin-top: 92px;
+        margin-bottom: 92px;
         padding: 195px 232px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        margin-left: 0;
-        margin-right: 0;
         padding: 245px 312px;
     }
 }
