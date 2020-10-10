@@ -1,0 +1,10 @@
+.lead__image-box {
+    margin: 0 auto;
+    max-width: 984px;
+}
+
+@media screen and (min-width: 991px) {
+    .lead__image-box {
+        width: calc(100% - 96px);
+    }
+}
